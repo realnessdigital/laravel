@@ -1,6 +1,47 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/laravel/compare/v13.5.0...13.x)
+## [Unreleased](https://github.com/laravel/laravel/compare/v13.10.1...13.x)
+
+## [v13.10.1](https://github.com/laravel/laravel/compare/v13.10.0...v13.10.1) - 2026-08-25
+
+**Full Changelog**: https://github.com/laravel/laravel/compare/v13.10.0...v13.10.1
+
+## [v13.10.0](https://github.com/laravel/laravel/compare/v13.9.0...v13.10.0) - 2026-08-17
+
+* Add "monthly" to the available log drivers comment by [@csemazharul](https://github.com/csemazharul) in https://github.com/laravel/laravel/pull/6855
+* Ignore temporary LSP script files in `storage/framework` by [@imKenjo18](https://github.com/imKenjo18) in https://github.com/laravel/laravel/pull/6856
+
+## [v13.9.0](https://github.com/laravel/laravel/compare/v13.8.0...v13.9.0) - 2026-08-12
+
+* GitHub Actions hardening by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/laravel/pull/6829
+* Bump actions/checkout from 6.0.2 to 6.0.3 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/laravel/laravel/pull/6830
+* Pin pull requests and issues workflows to least-privilege reusable workflows by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/laravel/pull/6831
+* Pin pull requests and issues workflows to latest laravel/.github by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/laravel/pull/6832
+* Add Dependabot cooldown of 5 days by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/laravel/pull/6833
+* Enable Dependabot auto-merge by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/laravel/pull/6834
+* Restore expectsJson fallback when rendering JSON exceptions by [@jasonvarga](https://github.com/jasonvarga) in https://github.com/laravel/laravel/pull/6837
+* Bump shivammathur/setup-php from 2.37.1 to 2.37.2 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/laravel/laravel/pull/6838
+* Add 'array' as a supported maintenance mode driver doc block by [@jackbayliss](https://github.com/jackbayliss) in https://github.com/laravel/laravel/pull/6840
+* Bump actions/checkout from 6.0.3 to 7.0.0 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/laravel/laravel/pull/6841
+* Bump Concurrently to v10 by [@u01jmg3](https://github.com/u01jmg3) in https://github.com/laravel/laravel/pull/6845
+* Update APP_URL to use port 8000 by [@dipesh79](https://github.com/dipesh79) in https://github.com/laravel/laravel/pull/6846
+* Add monthly log driver to `config/logging.php` by [@SjorsO](https://github.com/SjorsO) in https://github.com/laravel/laravel/pull/6847
+* Bump actions/checkout from 7.0.0 to 7.0.1 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/laravel/laravel/pull/6848
+* Use new `artisan dev` command in `composer dev` script by [@WendellAdriel](https://github.com/WendellAdriel) in https://github.com/laravel/laravel/pull/6849
+* Add `@laravel/multiplex` by [@joetannenbaum](https://github.com/joetannenbaum) in https://github.com/laravel/laravel/pull/6854
+
+## [v13.8.0](https://github.com/laravel/laravel/compare/v13.7.0...v13.8.0) - 2026-05-25
+
+* [13.x] remove Tailwind `@source` calls that are already covered by default by [@browner12](https://github.com/browner12) in https://github.com/laravel/laravel/pull/6823
+* [13.x] Render JSON exceptions for API routes by default by [@LucasCavalheri](https://github.com/LucasCavalheri) in https://github.com/laravel/laravel/pull/6824
+
+## [v13.7.0](https://github.com/laravel/laravel/compare/v13.6.0...v13.7.0) - 2026-05-14
+
+**Full Changelog**: https://github.com/laravel/laravel/compare/v13.6.0...v13.7.0
+
+## [v13.6.0](https://github.com/laravel/laravel/compare/v13.5.0...v13.6.0) - 2026-05-11
+
+* Remove Pdo/Mysql const workaround by [@jnoordsij](https://github.com/jnoordsij) in https://github.com/laravel/laravel/pull/6810
 
 ## [v13.5.0](https://github.com/laravel/laravel/compare/v13.4.0...v13.5.0) - 2026-04-30
 
